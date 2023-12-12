@@ -1,6 +1,6 @@
 import telebot
 
-bot = telebot.TeleBot('6610232750:AAFk3oeAzPzYVpt01Leqzh_b6zXvTqm4C3c')
+bot = telebot.TeleBot('TOKEN')
 
 antispam_timeout = 0.1  # время ограничения отправки сообщений (в минутах)
 antispam_messages_count = 2  # количество разрешенных сообщений в течение заданного промежутка времени (в штуках)
